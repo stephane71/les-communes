@@ -1,0 +1,16 @@
+{
+  "name": "les-communes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/stephane71/les-communes.git",
+  "author": "stephane71 <stephanemaire71@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  }
+}
