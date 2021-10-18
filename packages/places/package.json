@@ -1,0 +1,31 @@
+{
+  "name": "places",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "stephane71 <stephane@un-bourguignon.com>",
+  "homepage": "https://github.com/stephane71/les-communes#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephane71/les-communes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/stephane71/les-communes/issues"
+  },
+  "dependencies": {
+    "@middy/core": "^2.5.1",
+    "@middy/http-error-handler": "^2.5.1",
+    "@middy/http-json-body-parser": "^2.5.1",
+    "@middy/validator": "^2.5.1",
+    "ajv": "^8.6.2",
+    "ajv-keywords": "^5.0.0",
+    "http-errors": "^1.8.0",
+    "slug": "^5.1.0"
+  },
+  "devDependencies": {
+    "@aws-cdk/aws-dynamodb": "^1.128.0"
+  }
+}
