@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/stephane71/les-communes.git",
-  "author": "stephane71 <stephanemaire71@gmail.com>",
+  "author": "stephane71 <stephane@un-bourguignon.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
