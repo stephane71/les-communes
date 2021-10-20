@@ -1,5 +1,5 @@
-import * as ATTRIBUTES from "./attributes";
-import * as GLOBAL_SECONDARY_INDEXES from "./globalSecondaryIndexes";
+import * as ATTRIBUTES from "./attributes.mjs";
+import * as GLOBAL_SECONDARY_INDEXES from "./globalSecondaryIndexes.mjs";
 
 // TABLE //
 const TABLE = {

@@ -10,7 +10,8 @@
     "url": "git+https://github.com/stephane71/les-communes.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "generateTableProperties": "node scripts/generateTableProperties.mjs"
   },
   "bugs": {
     "url": "https://github.com/stephane71/les-communes/issues"
@@ -26,6 +27,7 @@
     "slug": "^5.1.0"
   },
   "devDependencies": {
-    "@aws-cdk/aws-dynamodb": "^1.128.0"
+    "@aws-cdk/aws-dynamodb": "^1.128.0",
+    "json-to-pretty-yaml": "^1.2.2"
   }
 }
