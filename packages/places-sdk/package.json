@@ -1,0 +1,29 @@
+{
+  "name": "@les-communes/places-sdk",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "stephane71 <stephanemaire71@gmail.com>",
+  "homepage": "https://github.com/stephane71/les-communes#readme",
+  "license": "ISC",
+  "main": "lib/places-sdk.mjs",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephane71/les-communes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/stephane71/les-communes/issues"
+  },
+  "dependencies": {
+    "aws-api-gateway-client": "^0.3.7"
+  }
+}
