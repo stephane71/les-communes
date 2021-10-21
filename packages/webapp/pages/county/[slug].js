@@ -2,18 +2,20 @@ import PLacesSDK from "@les-communes/places-sdk";
 
 const placesSDK = new PLacesSDK();
 
-const Department = ({ department }) => {
-  const { name, regionCode } = department;
+const County = ({ county }) => {
+  const { name, code, codeRegion } = county;
 
   return (
     <div>
-      <h1>{name}</h1>
-      <h2>{regionCode}</h2>
+      <h1>
+        {name} - {code}
+      </h1>
+      <h2>Region: {codeRegion}</h2>
     </div>
   );
 };
 
-export default Department;
+export default County;
 
 export async function getServerSideProps({ params }) {
   const { slug } = params;
@@ -24,10 +26,10 @@ export async function getServerSideProps({ params }) {
     };
   }
 
-  let department = null;
+  let counties = [];
 
   try {
-    department = await placesSDK.getCounty(slug);
+    counties = await placesSDK.getCounty(slug, "DEPARTMENT");
   } catch (error) {
     if (error.response) {
       if (error.response.status === 404) {
@@ -40,9 +42,15 @@ export async function getServerSideProps({ params }) {
     }
   }
 
+  if (!counties.length) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
-      department,
+      county: counties[0],
     },
   };
 }
