@@ -1,0 +1,34 @@
+{
+  "name": "@les-communes/webapp",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "stephane71 <stephane@un-bourguignon.com>",
+  "homepage": "https://github.com/stephane71/les-communes#readme",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephane71/les-communes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "bugs": {
+    "url": "https://github.com/stephane71/les-communes/issues"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.5.0",
+    "@emotion/react": "^11.5.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.3.0",
+    "@les-communes/places-sdk": "^0.0.0",
+    "@mui/material": "^5.0.4",
+    "next": "^11.1.2",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
