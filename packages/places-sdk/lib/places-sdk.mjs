@@ -25,6 +25,7 @@ class PlacesSDK {
       "GET",
       {}
     );
+
     return res.data;
   }
 
@@ -33,11 +34,10 @@ class PlacesSDK {
       return null;
     }
 
-    console.log("getDepartment", slug);
-
     const res = await this.api.invokeApi({ slug }, "/places/{slug}", "GET", {
       type: "DEPARTMENT",
     });
+
     return res.data;
   }
 
@@ -52,6 +52,7 @@ class PlacesSDK {
       "GET",
       {}
     );
+
     return res.data;
   }
 }
