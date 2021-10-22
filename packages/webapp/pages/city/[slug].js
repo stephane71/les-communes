@@ -15,6 +15,20 @@ function getFormattedNumber(number) {
   return new Intl.NumberFormat("fr-fr").format(number);
 }
 
+function getPrintedPostalCodes(postalCodes) {
+  if (postalCodes.length > 3) {
+    const start = getFormattedNumber(postalCodes[0]);
+    const end = getFormattedNumber(postalCodes.slice(-1)[0]);
+    return `${start} à ${end}`;
+  }
+  return postalCodes.map((cp) => getFormattedNumber(cp)).join(",");
+}
+
+function getPrintedLocation(location) {
+  const [lat, lng] = location;
+  return `${lat}, ${lng}`;
+}
+
 const TableContainerPaper = (props) => (
   <Paper
     variant="outlined"
@@ -29,6 +43,8 @@ const TableContainerPaper = (props) => (
  *  Things to render
  *  - Prefecture / Sous préfecture
  *  - Superficie
+ *  - Gentilé
+ *  - Logo && Blason
  */
 const City = ({ city, department }) => {
   const { name, population, location, code, postalCodes } = city;
@@ -36,11 +52,11 @@ const City = ({ city, department }) => {
   const rows = [
     { title: "Department", value: department.name },
     { title: "Population", value: getFormattedNumber(population) + " habs" },
-    { title: "Coordonnées", value: JSON.stringify(location) },
+    { title: "Coordonnées", value: getPrintedLocation(location) },
     { title: "Code commune", value: getFormattedNumber(code) },
     {
       title: postalCodes.length > 1 ? "Codes Postaux" : "Code postal",
-      value: postalCodes.map((cp) => getFormattedNumber(cp)).join(","),
+      value: getPrintedPostalCodes(postalCodes),
     },
   ];
 
@@ -57,7 +73,9 @@ const City = ({ city, department }) => {
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
                 <TableCell align="left">
-                  <Typography color={"text.secondary"} fontWeight={"medium"}>{row.title}</Typography>
+                  <Typography color={"text.secondary"} fontWeight={"medium"}>
+                    {row.title}
+                  </Typography>
                 </TableCell>
                 <TableCell align="right">
                   <Typography noWrap>{row.value}</Typography>
