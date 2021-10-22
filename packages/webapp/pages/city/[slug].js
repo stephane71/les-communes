@@ -1,4 +1,5 @@
 import PLacesSDK from "@les-communes/places-sdk";
+import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -39,6 +40,12 @@ const TableContainerPaper = (props) => (
   />
 );
 
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  "&:nth-of-type(odd)": {
+    backgroundColor: theme.palette.action.hover,
+  },
+}));
+
 /**
  *  Things to render
  *  - Prefecture / Sous préfecture
@@ -68,7 +75,7 @@ const City = ({ city, department }) => {
         <Table aria-label="city description" sx={{ tableLayout: "fixed" }}>
           <TableBody>
             {rows.map((row) => (
-              <TableRow
+              <StyledTableRow
                 key={row.title}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
@@ -80,7 +87,7 @@ const City = ({ city, department }) => {
                 <TableCell align="right">
                   <Typography noWrap>{row.value}</Typography>
                 </TableCell>
-              </TableRow>
+              </StyledTableRow>
             ))}
           </TableBody>
         </Table>
