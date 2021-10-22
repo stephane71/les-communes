@@ -1,25 +1,53 @@
 import PLacesSDK from "@les-communes/places-sdk";
+import Table from "@mui/material/Table";
+import TableBody from "@mui/material/TableBody";
+import TableCell from "@mui/material/TableCell";
+import TableContainer from "@mui/material/TableContainer";
+import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
+import Container from "@mui/material/Container";
 import getCityJsonLD from "../../src/getCityJsonLD";
 
 const placesSDK = new PLacesSDK();
 
-const City = ({ city, department, resolvedUrl, jsonLD }) => {
+const TableContainerPaper = (props) => <Paper variant="outlined" {...props} />;
+
+/**
+ *  Things to render
+ *  - Prefecture / Sous préfecture
+ *  - Superficie
+ */
+const City = ({ city, department }) => {
   const { name, population, location, code, postalCodes } = city;
 
-  return (
-    <div>
-      <h1>{name}</h1>
-      <h2>{department.name}</h2>
+  const rows = [
+    { title: "Department", value: department.name },
+    { title: "Population", value: population },
+    { title: "Coordonnées", value: JSON.stringify(location) },
+    { title: "Code commune", value: code },
+    { title: "Codes Postaux", value: postalCodes.join(",") },
+  ];
 
-      <div>
-        <div>url : {resolvedUrl}</div>
-        <div>Population : {population}</div>
-        <div>Code commune : {code}</div>
-        <div>Code Postaux : {postalCodes.join(",")}</div>
-        <div>Coordonnées : {JSON.stringify(location)}</div>
-        <div>Coordonnées : {JSON.stringify(jsonLD)}</div>
-      </div>
-    </div>
+  return (
+    <Container maxWidth="sm">
+      <h1>{name}</h1>
+
+      <TableContainer component={TableContainerPaper}>
+        <Table aria-label="city description">
+          <TableBody>
+            {rows.map((row) => (
+              <TableRow
+                key={row.title}
+                sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
+              >
+                <TableCell align="left">{row.title}</TableCell>
+                <TableCell align="right">{row.value}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
+    </Container>
   );
 };
 
