@@ -6,11 +6,24 @@ import TableContainer from "@mui/material/TableContainer";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 import getCityJsonLD from "../../src/getCityJsonLD";
 
 const placesSDK = new PLacesSDK();
 
-const TableContainerPaper = (props) => <Paper variant="outlined" {...props} />;
+function getFormattedNumber(number) {
+  return new Intl.NumberFormat("fr-fr").format(number);
+}
+
+const TableContainerPaper = (props) => (
+  <Paper
+    variant="outlined"
+    {...props}
+    sx={{
+      "&.MuiTableContainer-root": { overflowX: "hidden" },
+    }}
+  />
+);
 
 /**
  *  Things to render
@@ -22,10 +35,13 @@ const City = ({ city, department }) => {
 
   const rows = [
     { title: "Department", value: department.name },
-    { title: "Population", value: population },
+    { title: "Population", value: getFormattedNumber(population) + " habs" },
     { title: "Coordonnées", value: JSON.stringify(location) },
-    { title: "Code commune", value: code },
-    { title: "Codes Postaux", value: postalCodes.join(",") },
+    { title: "Code commune", value: getFormattedNumber(code) },
+    {
+      title: postalCodes.length > 1 ? "Codes Postaux" : "Code postal",
+      value: postalCodes.map((cp) => getFormattedNumber(cp)).join(","),
+    },
   ];
 
   return (
@@ -33,15 +49,19 @@ const City = ({ city, department }) => {
       <h1>{name}</h1>
 
       <TableContainer component={TableContainerPaper}>
-        <Table aria-label="city description">
+        <Table aria-label="city description" sx={{ tableLayout: "fixed" }}>
           <TableBody>
             {rows.map((row) => (
               <TableRow
                 key={row.title}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
-                <TableCell align="left">{row.title}</TableCell>
-                <TableCell align="right">{row.value}</TableCell>
+                <TableCell align="left">
+                  <Typography color={"text.secondary"} fontWeight={"medium"}>{row.title}</Typography>
+                </TableCell>
+                <TableCell align="right">
+                  <Typography noWrap>{row.value}</Typography>
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
