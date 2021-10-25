@@ -53,11 +53,10 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
  *  - Gentilé
  *  - Logo && Blason
  */
-const City = ({ city, department }) => {
+const City = ({ city }) => {
   const { name, population, location, code, postalCodes } = city;
 
   const rows = [
-    { title: "Department", value: department.name },
     { title: "Population", value: getFormattedNumber(population) + " habs" },
     { title: "Coordonnées", value: getPrintedLocation(location) },
     { title: "Code commune", value: getFormattedNumber(code) },
@@ -109,11 +108,9 @@ export async function getServerSideProps({ params, resolvedUrl }) {
   }
 
   let city = null;
-  let department = null;
 
   try {
     city = await placesSDK.getCity(countySlug, citySlug);
-    department = await placesSDK.getDepartmentFromCode(city.codeDepartment);
   } catch (error) {
     if (error.response) {
       if (error.response.status === 404) {
@@ -129,7 +126,6 @@ export async function getServerSideProps({ params, resolvedUrl }) {
   return {
     props: {
       city,
-      department,
       jsonLD: getCityJsonLD(resolvedUrl, city),
       resolvedUrl,
     },
