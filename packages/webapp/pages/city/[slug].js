@@ -9,6 +9,7 @@ import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import getCityJsonLD from "../../src/getCityJsonLD";
+import JsonLD from "../../components/JsonLD";
 
 const placesSDK = new PLacesSDK();
 
@@ -53,7 +54,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
  *  - Gentilé
  *  - Logo && Blason
  */
-const City = ({ city }) => {
+const City = ({ city, jsonLD }) => {
   const { name, population, location, code, postalCodes } = city;
 
   const rows = [
@@ -91,6 +92,7 @@ const City = ({ city }) => {
           </TableBody>
         </Table>
       </TableContainer>
+      <JsonLD data={jsonLD} />
     </Container>
   );
 };
