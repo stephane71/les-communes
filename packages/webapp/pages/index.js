@@ -21,7 +21,7 @@ export default function Index() {
 
   function handleClickCityItem(slug) {
     return () => {
-      router.push(`/city/${slug}`);
+      router.push(`/${slug}`);
     };
   }
 
