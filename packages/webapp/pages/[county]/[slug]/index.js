@@ -8,8 +8,8 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import getCityJsonLD from "../../src/getCityJsonLD";
-import JsonLD from "../../components/JsonLD";
+import getCityJsonLD from "../../../src/getCityJsonLD";
+import JsonLD from "../../../components/JsonLD";
 
 const placesSDK = new PLacesSDK();
 
@@ -54,7 +54,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
  *  - Gentilé
  *  - Logo && Blason
  */
-const City = ({ city, jsonLD }) => {
+const NewCity = ({ city, jsonLD }) => {
   const { name, population, location, code, postalCodes } = city;
 
   const rows = [
@@ -97,11 +97,12 @@ const City = ({ city, jsonLD }) => {
   );
 };
 
-export default City;
+export default NewCity;
 
 export async function getServerSideProps({ params, resolvedUrl }) {
-  const { slug } = params;
-  const [countySlug, citySlug] = slug.split("--");
+  const { slug, county } = params;
+  const citySlug = slug;
+  const countySlug = county;
 
   if (!countySlug || !citySlug) {
     return {
