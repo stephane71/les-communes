@@ -9,19 +9,19 @@ import ListItemText from "@mui/material/ListItemText";
 import Link from "@mui/material/Link";
 
 const exemples = [
-  { title: "Lyon", slug: "rhone--lyon" },
-  { title: "Paris", slug: "paris--paris" },
-  { title: "Saint-Yan", slug: "saone-et-loire--saint-yan" },
-  { title: "Moroges", slug: "saone-et-loire--moroges" },
-  { title: "Charolles", slug: "saone-et-loire--charolles" },
+  { title: "Lyon", county: "rhone", slug: "lyon" },
+  { title: "Paris", county: "paris", slug: "paris" },
+  { title: "Saint-Yan", county: "saone-et-loire", slug: "saint-yan" },
+  { title: "Moroges", county: "saone-et-loire", slug: "moroges" },
+  { title: "Charolles", county: "saone-et-loire", slug: "charolles" },
 ];
 
 export default function Index() {
   const router = useRouter();
 
-  function handleClickCityItem(slug) {
+  function handleClickCityItem(county, slug) {
     return () => {
-      router.push(`/${slug}`);
+      router.push(`/${county}/${slug}`);
     };
   }
 
@@ -34,10 +34,10 @@ export default function Index() {
       </Box>
       <Box>
         <List>
-          {exemples.map(({ title, slug }) => (
-            <ListItem key={slug} button onClick={handleClickCityItem(slug)}>
+          {exemples.map(({ title, county, slug }) => (
+            <ListItem key={slug} button onClick={handleClickCityItem(county, slug)}>
               <ListItemText primary={title} />
-              <Link>{slug}</Link>
+              <Link>{county}/{slug}</Link>
             </ListItem>
           ))}
         </List>
