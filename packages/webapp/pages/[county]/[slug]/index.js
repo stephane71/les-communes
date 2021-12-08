@@ -54,7 +54,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
  *  - Gentilé
  *  - Logo && Blason
  */
-const NewCity = ({ city, jsonLD }) => {
+const City = ({ city, jsonLD }) => {
   const { name, population, location, code, postalCodes } = city;
 
   const rows = [
@@ -97,7 +97,7 @@ const NewCity = ({ city, jsonLD }) => {
   );
 };
 
-export default NewCity;
+export default City;
 
 export async function getServerSideProps({ params, resolvedUrl }) {
   const { slug, county } = params;
