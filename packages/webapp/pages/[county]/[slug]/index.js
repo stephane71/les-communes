@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import PLacesSDK from "@les-communes/places-sdk";
 import { styled } from "@mui/material/styles";
 import Table from "@mui/material/Table";
@@ -10,6 +11,11 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import getCityJsonLD from "../../../src/getCityJsonLD";
 import JsonLD from "../../../components/JsonLD";
+
+const SEO = {
+  titlePrefix: (strings, commune) => `Les Communes | ${commune}`,
+  descriptionPrefix: (strings, commune) => `Retrouvez toutes les informations sur la commune de ${commune}`,
+};
 
 const placesSDK = new PLacesSDK();
 
@@ -69,6 +75,10 @@ const City = ({ city, jsonLD }) => {
 
   return (
     <Container maxWidth="sm">
+      <Head>
+        <title>{SEO.titlePrefix`${name}`}</title>
+        <meta name="description" content={SEO.descriptionPrefix`${name}`} />
+      </Head>
       <h1>{name}</h1>
 
       <TableContainer component={TableContainerPaper}>
