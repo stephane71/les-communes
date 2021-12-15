@@ -2,7 +2,6 @@ import * as React from "react";
 import { useRouter } from "next/router";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
@@ -26,22 +25,32 @@ export default function Index() {
   }
 
   return (
-    <Container maxWidth="sm">
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Les Communes
-        </Typography>
-      </Box>
-      <Box>
+    <Container maxWidth="sm" sx={{ pt: 4 }}>
+      <Typography variant="h3" component="h1" gutterBottom>
+        Les informations essentielles sur votre commune
+      </Typography>
+      <Typography variant="p" gutterBottom>
+        Les Communes met à disposition une page dédiée pour chaque commune
+        française. Retrouvez le code postal, la population et la carte de votre
+        commune.
+      </Typography>
+
+      <div>
         <List>
           {exemples.map(({ title, county, slug }) => (
-            <ListItem key={slug} button onClick={handleClickCityItem(county, slug)}>
+            <ListItem
+              key={slug}
+              button
+              onClick={handleClickCityItem(county, slug)}
+            >
               <ListItemText primary={title} />
-              <Link>{county}/{slug}</Link>
+              <Link>
+                {county}/{slug}
+              </Link>
             </ListItem>
           ))}
         </List>
-      </Box>
+      </div>
     </Container>
   );
 }
