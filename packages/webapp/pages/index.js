@@ -27,7 +27,7 @@ export default function Index() {
   return (
     <Container maxWidth="sm" sx={{ pt: 4 }}>
       <Typography variant="h3" component="h1" gutterBottom>
-        Les informations essentielles sur votre commune
+        Les informations essentielles de votre commune
       </Typography>
       <Typography variant="p" gutterBottom>
         Les Communes met à disposition une page dédiée pour chaque commune
