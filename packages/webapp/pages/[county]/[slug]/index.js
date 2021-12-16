@@ -11,12 +11,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import getCityJsonLD from "../../../src/getCityJsonLD";
 import JsonLD from "../../../components/JsonLD";
-
-const SEO = {
-  titlePrefix: (strings, commune) => `Les Communes | ${commune}`,
-  descriptionPrefix: (strings, commune) =>
-    `Retrouvez toutes les informations sur la commune de ${commune}`,
-};
+import { SEO } from "../../../src/enums";
 
 const placesSDK = new PLacesSDK();
 
@@ -77,8 +72,8 @@ const City = ({ city, jsonLD }) => {
   return (
     <Container maxWidth="sm" sx={{ pt: 4 }}>
       <Head>
-        <title>{SEO.titlePrefix`${name}`}</title>
-        <meta name="description" content={SEO.descriptionPrefix`${name}`} />
+        <title>{SEO.CITY.title`${name}`}</title>
+        <meta name="description" content={SEO.CITY.description`${name}`} />
       </Head>
 
       <Typography variant="h4" component="h1" gutterBottom>
