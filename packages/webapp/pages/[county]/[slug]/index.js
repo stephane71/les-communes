@@ -9,6 +9,7 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
+import CityHeader from "../../../components/CityHeader";
 import getCityJsonLD from "../../../src/getCityJsonLD";
 import JsonLD from "../../../components/JsonLD";
 import { SEO } from "../../../src/enums";
@@ -76,9 +77,7 @@ const City = ({ city, jsonLD }) => {
         <meta name="description" content={SEO.CITY.description`${name}`} />
       </Head>
 
-      <Typography variant="h4" component="h1" gutterBottom>
-        {name}
-      </Typography>
+      <CityHeader name={name} postalCodes={postalCodes} jsonLD={jsonLD} />
 
       <TableContainer component={TableContainerPaper}>
         <Table aria-label="city description" sx={{ tableLayout: "fixed" }}>
