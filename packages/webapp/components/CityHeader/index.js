@@ -16,7 +16,7 @@ const Title = ({ name, postalCodes }) => {
   );
 };
 
-function CityHeader({ name, postalCodes, jsonLD }) {
+function CityHeader({ name, postalCodes, url }) {
   return (
     <Box
       sx={{
@@ -26,7 +26,7 @@ function CityHeader({ name, postalCodes, jsonLD }) {
       }}
     >
       <Title name={name} postalCodes={postalCodes} />
-      <CopyButton text={jsonLD.url} icon={ContentCopyIcon} />
+      <CopyButton text={url} icon={ContentCopyIcon} />
     </Box>
   );
 }
