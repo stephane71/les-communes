@@ -1,6 +1,6 @@
 import Typography from "@mui/material/Typography";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
-import Box from "@mui/material/Box";
+import Stack from "@mui/material/Stack";
 import CopyButton from "../CopyButton";
 
 const Title = ({ name, postalCodes }) => {
@@ -18,16 +18,14 @@ const Title = ({ name, postalCodes }) => {
 
 function CityHeader({ name, postalCodes, url }) {
   return (
-    <Box
-      sx={{
-        display: "flex",
-        alignItems: "flex-start",
-        justifyContent: "space-between",
-      }}
+    <Stack
+      direction="row"
+      justifyContent="space-between"
+      alignItems="flex-start"
     >
       <Title name={name} postalCodes={postalCodes} />
       <CopyButton text={url} icon={ContentCopyIcon} />
-    </Box>
+    </Stack>
   );
 }
 
