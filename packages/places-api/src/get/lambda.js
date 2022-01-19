@@ -3,7 +3,7 @@ export async function handler(event) {
 
   return {
     statusCode: 200,
-    body: JSON.stringify({...event.pathParameters, test: "hello"}),
+    body: JSON.stringify({ ...event.pathParameters, test: "hello" }),
     headers: { "Access-Control-Allow-Origin": "*" },
   };
 }
