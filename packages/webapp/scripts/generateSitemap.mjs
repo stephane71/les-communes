@@ -28,6 +28,13 @@ async function createCitiesSitemap() {
   const sitemap = new SitemapStream({ hostname: HOSTNAME });
 
   sitemap.pipe(writeStream);
+
+  sitemap.write({
+    url: `/`,
+    changefreq: "yearly",
+    lastmod: getDateToday(),
+  });
+
   cities.forEach(({ nom, codeDepartement }) => {
     const dep = departments.find(({ code }) => code === codeDepartement);
     if (!dep) {
