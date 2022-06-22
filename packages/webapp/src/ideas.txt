@@ -1,0 +1,12 @@
+- Météo
+- ID Card pour une commune
+- SHARE : Partage de toutes l'ID Card
+- LINK : Liens vers les réseaux sociaux
+- LINK : Pages du gouvernement => https://lannuaire.service-public.fr/, ...
+- LINK : Page Wikipédia
+- LINK : Page Google Maps
+- LIKE / LOVE the page
+- Page avec les communes triées par population => lien interne
+- TIME : heure et date au moment où l'on regarde la page => horloge
+- LIST : Entreprises => infogreffe
+- LIST : Associations => où se trouve la liste ?
