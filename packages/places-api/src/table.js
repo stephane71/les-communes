@@ -1,6 +1,7 @@
 import { TableFieldType } from "@serverless-stack/resources";
 
 export const TABLE_NAME = "PlacesTable";
+export const TABLE_REGION = "us-east-1";
 
 // ATTRIBUTES
 const SLUG = "slug";
