@@ -13,15 +13,15 @@ const Title = ({ name }) => {
   );
 };
 
-function CityHeader({ name, postalCodes, url }) {
+function CityHeader({ name }) {
   return (
     <Stack
       direction="row"
       justifyContent="space-between"
       alignItems="flex-start"
     >
-      <Title name={name} postalCodes={postalCodes} />
-      <CopyButton text={url} icon={ContentCopyIcon} />
+      <Title name={name} />
+      <CopyButton text={name} icon={ContentCopyIcon} />
     </Stack>
   );
 }

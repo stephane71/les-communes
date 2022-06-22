@@ -77,7 +77,7 @@ const City = ({ city, jsonLD }) => {
         <meta name="description" content={SEO.CITY.description`${name}`} />
       </Head>
 
-      <CityHeader name={name} url={jsonLD.url} />
+      <CityHeader name={name} />
 
       <TableContainer component={TableContainerPaper}>
         <Table aria-label="city description" sx={{ tableLayout: "fixed" }}>
