@@ -1,0 +1,114 @@
+`{{Ébauche|commune de Saône-et-Loire}}\n
+{{Infobox Commune de France\n
+| nom                         = Moroges\n
+| image                       = Château de Moroges (71) - 1.JPG\n
+| légende                     = Le château.\n
+| région                      = [[Bourgogne-Franche-Comté]]\n
+| département                 = [[Saône-et-Loire]]\n
+| arrondissement              = [[Arrondissement de Chalon-sur-Saône|Chalon-sur-Saône]]\n
+| canton                      = [[Canton de Givry]]\n
+| circonscription législative = [[Cinquième circonscription de Saône-et-Loire|Cinquième circonscription]]\n
+| insee                       = 71324\n
+| cp                          = 71390\n
+| maire                       = Marie-Hélène Porot\n
+| mandat maire                = [[Élections municipales de 2020 en Saône-et-Loire|2020]]-2026\n
+| intercomm                   = [[Communauté de communes Sud Côte Chalonnaise]]\n
+| longitude                   = 4.67861111111\n
+| latitude                    = 46.7522222222\n
+| alt mini                    = 239\n
+| alt maxi                    = 467\n
+| superficie                  = 8.72\n
+| type                        = Commune rurale\n
+| aire d'attraction           = [[Aire d'attraction de Chalon-sur-Saône|Chalon-sur-Saône]] <br><small>(commune de la couronne)</small>\n
+| population                  = {{Population de France/dernière_pop}}<\!-- Insertion automatique, ne pas modifier -->\n
+| année_pop                   = {{Population de France/dernière_année_Infobox}}<\!-- Insertion automatique, ne pas modifier -->\n
+| géoloc-département          = Saône-et-Loire/Bourgogne-Franche-Comté\n
+| gentilé                     = Morogeois\n
+| siteweb                     = [https://www.moroges.fr moroges.fr]\n
+}}\n
+\n
+'''Moroges''' est une [[Commune (France)|commune française]] située dans le [[département français|département]] de [[Saône-et-Loire]] en [[région française|région]] [[Bourgogne-Franche-Comté]].\n
+{{Sommaire|niveau=2}}\n
+\n
+== Géographie ==\n
+Moroges est perchée sur une colline qui atteint {{unité|467|mètres}} d'altitude au cœur des [[vignobles de la côte chalonnaise]].\n
+\n
+=== Lieux-dits et écarts ===\n
+la Chaumotte, Nangle, la Grange, Sous Craie, la Croix de Bois, les Chats, la Luolle, le Pertuisot, les Cloux, la Citadelle, Murissey, Monceau, le moulin Charretier, le moulin Brûlé, le moulin Violot, Fissey, Monceau, les Chaumes, en Lombeau, la Baume, les Bouche-loups, les Vareilles, Dijon, le Pontot, Sous Velle, en mauvais.\n
+\n
+=== Communes limitrophes ===\n
+{{Localisation ville\n
+|nord=[[Jambles]]\n
+|ouest=[[Sainte-Hélène (Saône-et-Loire)|Sainte-Hélène]]\n
+|ville=Moroges\n
+|sud=[[Bissey-sous-Cruchaud]]\n
+|est=[[Saint-Désert]]<br>[[Rosey (Saône-et-Loire)|Rosey]]\n
+}}\n
+== Urbanisme ==\n
+=== Typologie ===\n
+Moroges est une commune rurale, car elle fait partie des communes peu ou très peu denses, au sens de la grille communale de densité de l'[[Institut national de la statistique et des études économiques|Insee]]<ref group=Note>Selon le zonage des communes rurales et urbaines publié en novembre 2020, en application de la nouvelle définition de la ruralité validée le {{date-|14 novembre 2020}} en comité interministériel des ruralités.</ref>{{,}}<ref >{{Lien web |url=https://www.observatoire-des-territoires.gouv.fr/typologie-urbain-rural |titre=Typologie urbain / rural |site=www.observatoire-des-territoires.gouv.fr |consulté le= 3 avril 2021}}.</ref>{{,}}<ref >{{Lien web |url=https://www.insee.fr/fr/metadonnees/definition/c1902|titre=Commune rurale - définition |site=le site de l’[[Insee]] |consulté le= 3 avril 2021}}.</ref>{{,}}<ref >{{Lien web |url= https://www.observatoire-des-territoires.gouv.fr/methodes/comprendre-la-grille-de-densite|titre= Comprendre la grille de densité|site=www.observatoire-des-territoires.gouv.fr |consulté le= 3 avril 2021}}.</ref>. \n\nPar ailleurs la commune fait partie de l'[[aire d'attraction de Chalon-sur-Saône]], dont elle est une commune de la couronne<ref group=Note>La notion d'[[aire d'attraction d'une ville|aire d'attraction des villes]] a remplacé en octobre 2020 l'ancienne notion d'[[aire urbaine (France)|aire urbaine]], pour permettre des comparaisons cohérentes avec les autres pays de l'[[Union européenne]].</ref>. Cette aire, qui regroupe {{Unité|109|communes}}, est catégorisée dans les aires de {{formatnum:50000}} à moins de {{Unité|200000|habitants}}<ref name="AAV2020">{{Lien web|url=https://www.insee.fr/fr/metadonnees/cog/aire-attraction-ville/AAV2020070-chalon-sur-saone|titre=Liste des communes composant l'aire d'attraction de Chalon-sur-Saône|site=insee.fr |consulté le= 3 avril 2021}}.</ref>{{,}}<ref name="AAV20202b">{{Lien web|url=https://www.insee.fr/fr/statistiques/4806694 |titre=En France, neuf personnes sur dix vivent dans l’aire d’attraction d’une ville |auteur=Marie-Pierre de Bellefon, Pascal Eusebio, Jocelyn Forest, Olivier Pégaz-Blanc et Raymond Warnod (Insee) |date=21 octobre 2020 |site=insee.fr |consulté le= 3 avril 2021}}.</ref>.\n
+\n
+=== Occupation des sols ===\n
+[[Fichier:71324-Moroges-Sols.png|vignette|upright=1.4|alt=Carte en couleurs présentant l'occupation des sols.|Carte des infrastructures et de l'occupation des sols de la commune en 2018 ([[Corine Land Cover|CLC]]).]]\n
+L'occupation des sols de la commune, telle qu'elle ressort de la [[base de données]] [[Europe|européenne]] d’occupation [[biophysique]] des sols [[Corine Land Cover]] (CLC), est marquée par l'importance des territoires agricoles (89,4 % en 2018), néanmoins en diminution par rapport à 1990 (90,5 %). La répartition détaillée en 2018 est la suivante : \n
+prairies (42,5 %), zones agricoles hétérogènes (30,1 %), cultures permanentes (16,5 %), zones urbanisées (8,1 %), milieux à végétation arbustive et/ou herbacée (2,2 %), [[terres arables]] (0,3 %), forêts (0,3 %)<ref name="CLC">{{Lien web |url=https://www.statistiques.developpement-durable.gouv.fr/corine-land-cover-0 |titre=CORINE Land Cover (CLC) - Répartition des superficies en 15 postes d'occupation des sols (métropole). |site=le [https://www.statistiques.developpement-durable.gouv.fr/ site des données et études statistiques] du ministère de la Transition écologique.|consulté le= 16 mai 2021}}</ref>.\n
+\n
+L'[[Institut national de l'information géographique et forestière|IGN]] met par ailleurs à disposition un outil en ligne permettant de comparer l’évolution dans le temps de l’occupation des sols de la commune (ou de territoires à des échelles différentes). Plusieurs époques sont accessibles sous forme de cartes ou photos aériennes : la [[carte de Cassini]] ({{s-|XVIII|e}}), la [[carte d'état-major]] (1820-1866) et la période actuelle (1950 à aujourd'hui)<ref>{{Lien web |url=https://remonterletemps.ign.fr/comparer/basic?x= 4.67861111111&y= 46.7522222222&z=14&layer1=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN-EXPRESS.STANDARD&layer2=GEOGRAPHICALGRIDSYSTEMS.MAPS.SCAN50.1950&mode=vSlider|titre=Évolution de l'occupation des sols de la commune sur cartes et photos aériennes anciennes.|auteur =[[Institut national de l'information géographique et forestière|IGN]] |site = remonterletemps.ign.fr |consulté le= 16 mai 2021}}. Pour comparer l'évolution entre deux dates, cliquer sur le bas de la ligne séparative verticale et la déplacer à droite ou à gauche. Pour comparer deux autres cartes, choisir les cartes dans les fenêtres en haut à gauche de l'écran.</ref>.\n
+\n
+== Toponymie ==\n
+{{...}}
+\n
+\n
+== Histoire ==\n
+Le site de Moroges est connu depuis la [[Préhistoire]] puisqu'il a été retrouvé quelques vestiges [[néolithique]]s au lieu-dit ''le Monceau''<ref>Régis Gaillard, [http://agri71.fr/1144-La-longue-et-riche-histoire-de-Moroges.html?PHPSESSID=f2ad9806c6877665ea9a7a7304d164f1 La longue et riche histoire de Moroges] sur AGRI71.fr rédigé le 26/01/2011.</ref>. On a retrouvé dans le hameau de Moroges, ''Vingelles'' des restes de sépultures [[Mérovingien|mérovingiennes]], deux sarcophages sont visibles à l'entrée du cimetière et qui existent toujours. On ne connait pas avec certitude l'origine du nom du village, mais il fut évangélisé très tôt puisque selon la tradition, saint Arige, évêque de [[Gap]] avait déclaré avoir été curé de Moroges près de [[Chalon-sur-Saône|Chalon]] (une statue de plâtre a été placée en son honneur dans le chœur de l'église actuelle). L'église de Moroges date de [[1771]] et a été agrandie en [[1865]].\n
+\n
+== Politique et administration ==\n
+=== Liste des maires ===\n
+{{ÉluDébut |Titre= Liste des maires successifs}}\n
+{{Élu |Début= mars 1983 |Fin= juillet 2017 |Identité= Jean Venot  |Parti= PS |Qualité= }}\n
+{{Élu |Début= juillet 2017 |Fin= ''en cours'' |Identité= Marie-Hélène Porot<ref>[[Le Journal de Saône-et-Loire]], 13 juillet 2017, Actu Chalonnais, Moroges (Politique) : Marie-Hélène Porot élue maire, {{p.}} 22</ref> |Parti= PS |Qualité= }}\n
+{{ÉluDonnées}}\n
+{{ÉluFin}}\n
+\n
+=== Jumelages ===\n
+{{jumelage|Aspisheim|Allemagne|année=2000}}.\n
+\n
+== Démographie ==\n
+<\!--Le paragraphe que vous essayez de modifier est rédigé automatiquement par un modèle. \n
+Veuillez insérer votre texte après {{Population de France/section}} -->\n
+{{Population de France/section}}\n
+\n
+[[Fichier:Vignobles cote_chalonnaise-fr.svg|thumb|Les [[vignoble]]s de la [[côte chalonnaise]].]]\n
+== Vignoble ==\n
+{{article détaillé|Bourgogne côte-chalonnaise (AOC)|Bourgogne (AOC)|Bourgogne aligoté|Crémant de Bourgogne}}\n
+\n
+== Lieux et monuments ==\n
+* Le sentier naturel du mont Avril (à cheval également sur les communes voisines de [[Jambles]] et de [[Saint-Désert]]), géré par le Conservatoire d'espaces naturels de Bourgogne<ref>[http://www.sitesnaturelsbourgogne.asso.fr/pre_se5.html Conservatoire des sites Naturels Bourguignons]</ref>{{,}}<ref group=Note>C'est l'un des huit sites gérés par le Conservatoire d'espaces naturels de Bourgogne en Saône-et-Loire, avec le [[site naturel protégé de la Boucherette]] ([[Lugny (Saône-et-Loire)|Lugny]]), le sentier de [[Longepierre]], les prairies et le bocage d'[[Ouroux-sur-Saône]], la [[Réserve naturelle nationale de La Truchère-Ratenelle|réserve naturelle de La Truchère-Ratenelle]], la lande de La Chaume ([[Le Creusot]]), les rochers du Carnaval ([[Uchon]]) et la carrière de Rampon ([[Verzé]]).</ref>. Le sentier de découverte offre un bel aperçu des paysages et milieux naturels de la côte chalonnaise : vignobles, pelouses calcaires et leur diversité floristique, pierriers et petites corniches. Il permet en outre d'accéder à un point de vue sur la plaine de la [[Saône]]<ref>Daniel Conry, ''En Bourgogne-Franche-Comté : la Saône-et-Loire, un patrimoine naturel riche et diversifié'', article paru dans la revue « Images de Saône-et-Loire », n° 199-200 de novembre 2019, p. 40-49.</ref>.\n
+* Le [[château de Moroges]].\n
+* Plusieurs [[four à pain|fours à pain]] en pierre et en bois.\n
+* L'[[Église (édifice)|église]] à l'origine dédiée à saint Martin, aujourd’hui saint Vincent. L'église [[Art roman|romane]] datant du {{XIIe siècle}} a été agrandie en 1771 et presque entièrement reconstruite vers 1860. Le chœur fut restauré en 1995 et le clocher en 2004<ref>[http://www.pastourisme71.com/fiches_eglises_a_imprimer/Moroges_2%20PRTL_2011.pdf MOROGES Église Saint Martin Aujourd’hui Saint Vincent] sur http://www.pastourisme71.com consulté le 7/02/2013.</ref>{{,}}<ref>[http://www.fondation-patrimoine.org/read/5/projets/documents/Bon%20Sousc%20MOROGES%20%C3%A9glise%202012_4076.pdf Restauration de l’église de MOROGES(Saône et Loire)] sur http://www.fondation-patrimoine.org consulté le 7/02/2013.</ref>.\n
+* Un ancien [[moulin]], refait entièrement en 2007.\n
+\n
+== Pour approfondir ==\n
+=== Bibliographie ===\n
+{{…}}\n
+\n
+=== Articles connexes ===<\!--Liens vers des pages de l'encyclopédie fr.wikipedia-->\n
+* [[Liste des communes de Saône-et-Loire]]\n
+* [[Appellation régionale (Bourgogne)]]\n
+\n
+=== Liens externes ===<\!--Liens vers des pages web externes à l'encyclopédie fr.wikipedia-->\n
+{{Autres projets|commons=Category:Moroges}}\n
+* [http://wikiwix.com/cache/?url=http://www.ign.fr/affiche_rubrique.asp?rbr_id=1087%26CommuneId=67732 Moroges sur le site de l'Institut géographique national]\n
+* [http://www.moroges.fr/ Site de la mairie]\n
+\n
+== Notes et références ==\n
+=== Notes ===\n{{Références|groupe=Note}}\n
+\n
+=== Références ===\n
+{{Références}}\n
+\n
+{{Portail|Saône-et-Loire|communes de France}}\n
+\n
+[[Catégorie:Commune en Saône-et-Loire|Moroges]]\n
+[[Catégorie:Aire urbaine de Chalon-sur-Saône]]`
