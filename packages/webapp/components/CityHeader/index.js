@@ -3,14 +3,11 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import Stack from "@mui/material/Stack";
 import CopyButton from "../CopyButton";
 
-const Title = ({ name, postalCodes }) => {
+const Title = ({ name }) => {
   return (
     <div>
       <Typography variant="h4" component="h1" gutterBottom>
         {name}
-      </Typography>
-      <Typography variant="p" gutterBottom>
-        {postalCodes}
       </Typography>
     </div>
   );
